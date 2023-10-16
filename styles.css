@@ -1,0 +1,379 @@
+body{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+div{
+    outline: 1px black solid;
+}
+.lewo{
+    display: flex;
+    width: 50%;
+    height: 100%;
+    min-width: 50%;
+    min-height: 100%;
+    background-color: yellow;
+}
+.lewolewo{
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+.lewoprawo{
+    display: block;
+    width: 50%;
+    height: 100%;
+}
+.lewo1{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+}
+.zielone1{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap-reverse;
+    width: 50%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: greenyellow;
+}
+.czerwone1{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap-reverse;
+    width: 50%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: red;
+}
+.zolte1{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap-reverse;
+    width: 50%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: yellow;
+}
+.niebieskie1{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap-reverse;
+    width: 50%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: blue;
+}
+.lewo2{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+}
+.zielone2{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap-reverse;
+    width: 50%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: greenyellow;
+}
+.czerwone2{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap-reverse;
+    width: 50%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: red;
+}
+.zolte2{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap-reverse;
+    width: 50%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: yellow;
+}
+.niebieskie2{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap-reverse;
+    width: 50%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: blue;
+}
+.lewo3{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    float: inline-end;
+
+    width: 100%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+}
+.zielone3{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: greenyellow;
+}
+.czerwone3{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: red;
+}
+.zolte3{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: yellow;
+}
+.niebieskie3{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: blue;
+}
+.lewo4{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    float: inline-end;
+    width: 100%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+}
+.zielone4{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: greenyellow;
+}
+.czerwone4{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: red;
+}
+.zolte4{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: yellow;
+}
+.niebieskie4{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    min-width: 50%;
+    min-height: 50%;
+    background-color: blue;
+}
+.prawo{
+    display: flex;
+    flex-direction: column;
+    float: right;
+    min-width: 50%;
+    min-height: 100%;
+    width: 50%;
+    height: 100%;
+    background-color: blue;
+}
+.prawo1{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    height: 50%;
+    min-width: 100%;
+    min-height: 50%;
+    background-color: blue;
+}
+.fiolet1{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    height: 50%;
+    min-width: 100%;
+    min-height: 50%;
+    background-color: blueviolet;
+}
+.niebieskie2_1{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    height: 50%;
+    min-width: 100%;
+    min-height: 50%;
+    background-color: blue;
+}
+.zielone2_1{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    height: 50%;
+    min-width: 100%;
+    min-height: 50%;
+    background-color: greenyellow;
+}
+.zolte2_1{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    width: 100%;
+    height: 50%;
+    min-width: 100%;
+    min-height: 50%;
+    background-color: yellow;
+}
+.czerwone2_1{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    min-width: 100%;
+    min-height: 50%;
+    background-color: red;
+}
+.bialy1{
+    float: left;
+    width: 25%;
+    height: 50%;
+    min-width: 25%;
+    min-height: 50%;
+    background-color: white;
+}
+.bialy2{
+    float: right;
+    width: 25%;
+    height: 50%;
+    min-width: 25%;
+    min-height: 50%;
+    background-color: white;
+}
+.prawo2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    min-width: 100%;
+    min-height: 50%;
+    background-color: blue;
+}
+.fiolet2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    min-width: 100%;
+    min-height: 50%;
+    background-color: blueviolet;
+}
+.niebieskie2_2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    min-width: 100%;
+    min-height: 50%;
+    background-color: blue;
+}
+.zielone2_2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    min-width: 100%;
+    min-height: 50%;
+    background-color: greenyellow;
+}
+.zolte2_2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 50%;
+    min-width: 100%;
+    min-height: 50%;
+    background-color: yellow;
+}
+.czerwone2_2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    height: 50%;
+    min-width: 100%;
+    min-height: 50%;
+    background-color: red;
+}
+.bialy3{
+    float: left;
+    width: 25%;
+    height: 50%;
+    min-width: 25%;
+    min-height: 50%;
+    background-color: white;
+}
+.bialy4{
+    float: right;
+    width: 25%;
+    height: 50%;
+    min-width: 25%;
+    min-height: 50%;
+    background-color: white;
+}
